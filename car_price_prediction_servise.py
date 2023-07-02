@@ -86,6 +86,6 @@ encoded_res = encoder.transform(res_df)
 st.write(encoded_res)
 scaled_res = scal.transform(encoded_res)
 st.write(scaled_res)
-overall_pred = model.predict(scaled_res)
+overall_pred = np.exp(model.predict(scaled_res))
 st.write(f'Стоимость автомобиля вашей мечты: {round(overall_pred[0])}')
 
