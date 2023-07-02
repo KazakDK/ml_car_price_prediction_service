@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 from pickle import load
-
+import numpy as np
 
 first_img = Image.open('best-drag-races-montage-1-lead.jpg')
 
