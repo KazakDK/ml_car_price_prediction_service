@@ -78,7 +78,7 @@ st.write(res_df)
 with open('model.pickle','rb') as file:
     model = load(file)
 with open('encoder.pickle','rb') as file:
-    encoder = load(file)
+    encoder = pd.read_pickle(file)
 with open('scal.pickle','rb') as file:
     scal = load(file)
 
