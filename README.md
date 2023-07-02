@@ -12,7 +12,7 @@
 - car_price_prediction.ipynb : файл с EDA и обученнием модели
 - car_price_prediction_service.py : код для запуска сайта на стримлите
 - cars.csv : файл с грязными файлами
-- clean_data.csv файл с предобработанными файлами
+- clean_data.csv : файл с предобработанными файлами
 - encoder.pickle, model.pickle, scal.pickle : обученные энкодер,скалер и модель
 - requirements.txt : нужные версии библиотек 
 # Исследовтельский анализ данных
